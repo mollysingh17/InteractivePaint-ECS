@@ -1,15 +1,15 @@
 # InteractivePaint-ECS
 
-Overview
+Overview  
 The Interactive Paint Application is a text-based drawing tool developed in C, featuring a dynamic, resizable canvas for creating and manipulating custom graphics. It allows users to draw, edit, and display artwork within a terminal-based interface. The application utilizes dynamic memory management and modular code to handle real-time updates and user interactions efficiently.
 
-Features
+Features   
 Dynamic Canvas Resizing: Supports custom canvas dimensions that can be adjusted as needed.
 Text-Based Drawing Tools: Allows drawing on the canvas, erasing, and modifying specific sections.
 Real-Time Updates: Provides immediate visual feedback as the user interacts with the canvas.
 Modular Design: Organized in a modular code structure, making it easy to extend functionalities.
 
-Commands:
+Commands:   
 The application accepts various commands to interact with the canvas:
 draw <x> <y>: Draws a character at the specified coordinates.
 erase <x> <y>: Erases a character at the specified coordinates.
@@ -18,7 +18,7 @@ display: Shows the current state of the canvas.
 help: Lists all available commands.
 quit: Exits the application.
 
-Code Structure:
+Code Structure:  
 paint.c: The main program file containing the core logic for canvas management and user interactions.
 print_statements.h: Header file with utility functions for displaying messages and handling output.
 Modular Functions: The code is divided into functions for creating, displaying, and modifying the canvas to maintain a clean structure.
