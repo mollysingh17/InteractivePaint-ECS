@@ -28,7 +28,7 @@ Future Improvements
 - Implementing undo and redo functionalities.
 - Enhancing the user interface for better visualization.
 
-Lessons Learned
+Lessons Learned  
 This project provided valuable experience in:
 - Managing memory dynamically in C.
 - Structuring code in a modular way for better maintainability.
